@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    
+   
+}
+
+.container{
+    width: 70vw;
+    margin: 80px 10px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px 20px 70px 20px;
+   
+}
+h2{
+    margin-bottom: 10px;
+}
+ 
+#inputValue{
+    width: 90%;
+    padding: 12px;
+    margin-bottom: 30px;
+    border-radius: 27px;
+    border: none;
+    background-color: rgba(216, 213, 213, 0.696);
+    outline: none;
+    
+}
+
+form{
+    position: relative;
+}
+
+
+#addButton{
+    position: absolute;
+    width: 70px;
+    border: none;
+    border-radius: 27px;
+    padding: 12px;
+    right: 12px;
+    background-color: rgb(249, 80, 80);  
+}
+
+.main-todo-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 1px;
+    width: 60vw;
+    margin-bottom: -20px;
+}
+i{
+    padding: 8px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+}
+#underline{
+   
+    background-color: rgb(0, 166, 255);
+    width: 45%;
+}
+#delete{
+    background-color: red;
+    width: 45%;
+}
+
+.todo-list-item , p{
+    font-size: 14px;
+    width: 50%;
+}
+span{
+    margin-right: 2px;
+    font-weight: 500;
+}
+
+
+@media (max-width: 450px) {
+    .container{
+        width: 100vw;
+        margin: 5px;
+        overflow: hidden;
+    }
+    .main-todo-div{
+        width: 85vw;
+    }
+}
+
+
+
+
+
